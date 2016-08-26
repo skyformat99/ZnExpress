@@ -40,6 +40,11 @@
  std::cout << sExp << " = " << static_cast<ZnExpress::its_integer::t_value*>(sp.get())->result() << std::endl;
  
  
+ 
+ 
+ 
+ 
+ 
   浮点数四则运算的方法
   
  ZnExpress::its_float its(_T("\\(|\\)|(?<=\\d)\\+|(?<=\\d)-|\\*|/|[-+]?\\d+\\.?\\d*"););
