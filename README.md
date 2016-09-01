@@ -37,7 +37,7 @@
  
    输出值
    
- std::cout << sExp << " = " << static_cast<ZnExpress::its_integer::t_value*>(sp.get())->result() << std::endl;
+ std::cout << sExp << " = " << (ZnExpress::its_integer::t_value*)(sp.get())->result() << std::endl;
  
  
  
@@ -55,5 +55,5 @@
  
  ZnExpress::its_float::t_sp sp = spSuffix->result();
  
- std::cout << sExp << " = " << static_cast<ZnExpress::its_float::t_value*>(sp.get())->result() << std::endl;
+ std::cout << sExp << " = " << (ZnExpress::its_float::t_value*)(sp.get())->result() << std::endl;
 
